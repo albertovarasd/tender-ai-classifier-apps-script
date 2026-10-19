@@ -103,6 +103,10 @@ Ejecutan el código real de `src/` contra versiones simuladas de `SpreadsheetApp
 - Los modelos pueden equivocarse: trata la clasificación y el fabricante como una ayuda para priorizar, no como un dato definitivo.
 - Los planes gratuitos de Groq tienen límites de tokens por minuto; por eso hay pausas entre lotes.
 
+##
+
+Funciona en conjunto con [Ariba-scraper-corregido](https://github.com/albertovarasd/Ariba-scraper-corregido), un scraper en Python que llena la planilla con las licitaciones nuevas de SAP Ariba. También sirve con cualquier planilla que tenga la misma estructura.
+
 ## Autor
 
 Alberto Varas — Técnico Analista Programador. Automatización y extracción de datos con Python y Google Apps Script.
