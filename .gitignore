@@ -1,0 +1,17 @@
+# clasp (enlaza la carpeta con TU proyecto de Apps Script)
+.clasp.json
+.claspignore
+
+# Node
+node_modules/
+
+# Claves: la clave de Groq vive en las propiedades del script, nunca en archivos
+.env
+*.key
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
